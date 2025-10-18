@@ -19,8 +19,8 @@ final class LoginViewController: UIViewController {
     
     //MARK: un elemento va a realizar una acción (@IBAction)
     @IBAction func loginButtonTapped(_ sender: UIButton){
-        print("User: ", userField.text)
-        print("Password: ", passwordField.text)
+        //print("User: ", userField.text)
+        //print("Password: ", passwordField.text)
         logIn()
     }
     
@@ -37,8 +37,5 @@ final class LoginViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         
     }
-    
-    
-
 }
 

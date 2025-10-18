@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		34AE19142EA41E05005A37C7 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE19132EA41E05005A37C7 /* InformationViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		34AE19132EA41E05005A37C7 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		34CAADDA2E9AB24C00D9CA94 /* Fakestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fakestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -45,6 +50,7 @@
 		34CAADD12E9AB24C00D9CA94 = {
 			isa = PBXGroup;
 			children = (
+				34AE19132EA41E05005A37C7 /* InformationViewController.swift */,
 				34CAADDC2E9AB24C00D9CA94 /* Fakestagram */,
 				34CAADDB2E9AB24C00D9CA94 /* Products */,
 			);
@@ -132,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34AE19142EA41E05005A37C7 /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
